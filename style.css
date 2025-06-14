@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f7fa;
+  color: #333;
+}
+header.hero {
+  background: linear-gradient(to right, #005bea, #00c6fb);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+.logo {
+  width: 80px;
+  margin-bottom: 1rem;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+.menu a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #005bea;
+  font-weight: bold;
+}
+.features, .pricing, .contact {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+}
+.btn {
+  background: white;
+  color: #005bea;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  background: #eee;
+  margin-top: 2rem;
+}
